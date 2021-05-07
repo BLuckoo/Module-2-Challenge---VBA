@@ -1,2 +1,2 @@
 # Module-2-Challenge---VBA
-## Using VBA to analyze stocks dataset to determine returns  - refactoring of first code to determine if refactoring in this example allows the code to run faster
+## Using VBA to analyze stocks dataset to determine returns  - the pros and cons of refactoring of code is also discussed and illustrated in this challenge.
