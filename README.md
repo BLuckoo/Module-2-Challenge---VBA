@@ -23,7 +23,7 @@
 ####    **YearValueAnalysis** - VBA code prior to refactoring and displaying the results in worksheet *"All Stocks Analysis b4 Refactor"*
 ####    **AllStocksAnalysisRefactored** - VBA code following refactoring using indexed arrays and displaying the results in worksheet *"All Stocks Analysis"*
 
-### **Output of "YearValueAnalysis"
+### **Output of "YearValueAnalysis"**
 ### This subroutine uses arrays to keep the information about the stocks' ticker symbols and then using "loops" and "ifs" iterates through the data set to accumulate the volumes traded and identify the starting and ending prices of each ticket symbol. A formula is then used to calculate the percentage return of each ticker symbol.
 
 
