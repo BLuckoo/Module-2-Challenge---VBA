@@ -41,8 +41,8 @@
 ### The following file contains the code for this analysis: https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/SUB%20YearValueAnalysis.txt
 ###
 ###
-###
-###
+## **Output of "AllStocksAnalysisRefactored"**
+###       This subroutine uses the same coding concepts that were used in the subroutine "YearValueAnalysis" above except that the concept of indexing of the array is being               introduced to help the code run a little bit faster.
 ###
 ###
 ### The following file contains the code for this analysis: https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/SUB%20AllStocksAnalysisRefactored.txt
