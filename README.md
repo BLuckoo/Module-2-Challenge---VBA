@@ -27,22 +27,21 @@
 ## **Output of "YearValueAnalysis"**
 ##
 ### This subroutine utilizes arrays to keep the information about the stocks' ticker symbols. It also uses "loops" and "ifs" to iterate through the data set to accumulate the volumes traded and identify the starting and ending prices of each ticket symbol. A formula is used to calculate the percentage return of each ticker symbol.
-###
+####
 #### The following are the results for the 2017 Dataset prior to the refactoring exercise: 
 #### https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/VBA_Challenge_2017.PNG
 ####
 ####     The results show that for the year 2017 most of the stocks had positive returns with the top performing stocks being DQ, SEDG and EWPH. 
 ####     The TERP stock was the only non-performing stock with a negative return of 7.2%.
-###
-###
-###  **The code for this subroutine took 1.046875 seconds to run.** 
+####
+#### ***The code for this subroutine took 1.046875 seconds to run.*** 
 ### 
 ####  The following are the results for the 2018 Dataset prior to the refactoring exercise: 
 ####  https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/VBA_Challenge_2018.PNG
 ####      Unlike 2017, in 2018 most of the stocks had negative returns. Only ENPH and RUN had positive returns of 81.9% and 84% respectively.
-###
-####    **The code for this subroutine ran in 1.0625 seconds.**
-###
+####
+#### ***The code for this subroutine ran in 1.0625 seconds.***
+####
 ####    The following file contains the code for this analysis: 
 ####    https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/SUB%20YearValueAnalysis.txt
 ###
