@@ -1,0 +1,180 @@
+Sub YearValueAnalysis()
+
+'This subroutine is to analyze all the ticker symbols for their annual returns and the results displayed in the worksheet "All Stocks Analysis b4 Refactor"
+'The user can clear the worksheet and start fresh by entering the year he wants the analysis for
+'There is also a timer that shows how long the analysis takes
+
+
+Worksheets("All Stocks Analysis b4 Refactor").Activate
+
+Dim startTime As Single
+Dim endTime As Single
+
+       
+yearValue = InputBox("What year would you like to run the analysis on?")
+
+'start timer to evaluate the code performance
+
+    startTime = Timer
+
+    Range("A6").Value = "All Stocks (" + yearValue + ")"
+
+'Create a header row
+
+        Cells(8, 1).Value = "Ticker"
+        Cells(8, 2).Value = "Total Daily Volume"
+        Cells(8, 3).Value = "% Return"
+        
+     'Show Title & Header row as Bold
+
+    Range("A6:c8").Font.Bold = True
+    
+'Adding a border to the bottom edge of the Header Row
+
+    Range("A8:c8").Borders(xlEdgeBottom).LineStyle = xlContinuous
+    
+'Adjusting the column width
+
+    Worksheets("All Stocks Analysis b4 Refactor").Range("A8:E8").Columns.AutoFit
+     
+'Highlighting the Header Row in Yellow
+
+    Range("A8:c8").Interior.ColorIndex = 6
+    
+'Centering Header Titles
+
+    Range("A8:c8").HorizontalAlignment = xlCenter
+    
+'Format Total Daily Volume with comma separators
+
+    Range("B9:b20").NumberFormat = "#,##0"
+  
+      
+'Format % Return as %
+
+    Range("c9:c20").NumberFormat = "0.0%"
+
+Worksheets(yearValue).Activate
+
+'Create an array to hold 12 ticker symbols
+
+    Dim tickers(12) As String
+
+    tickers(0) = "AY"
+    tickers(1) = "CSIQ"
+    tickers(2) = "DQ"
+    tickers(3) = "ENPH"
+    tickers(4) = "FSLR"
+    tickers(5) = "HASI"
+    tickers(6) = "JKS"
+    tickers(7) = "RUN"
+    tickers(8) = "SEDG"
+    tickers(9) = "SPWR"
+    tickers(10) = "TERP"
+    tickers(11) = "VSLR"
+  
+     
+    
+'Define the starting price and ending price data type as doubles since they have decimal points
+
+    Dim startingPrice As Double
+    Dim endingPrice As Double
+    Dim ticker As String
+    
+    
+'Find the number of rows to loop over
+
+    RowCount = Cells(Rows.Count, "A").End(xlUp).Row
+
+'Loop through the Ticker array
+ 
+        For i = 0 To 11
+    
+            ticker = tickers(i)
+            
+'Set the initial volume to zero
+          
+  Worksheets(yearValue).Activate
+  
+            totalVolume = 0
+            
+            
+            For j = 2 To RowCount
+             
+ 'Increase totalVolume by the value in the current row
+ 
+                If Cells(j, 1).Value = ticker Then
+        
+                    totalVolume = totalVolume + Cells(j, 8).Value
+                    
+                End If
+        
+'If the value of the current cell is="ticker" AND the cell prior is not = to "ticker" then use the price in the current row, ADJ Close as the starting price
+ 
+                If Cells(j - 1, 1).Value <> ticker And Cells(j, 1).Value = ticker Then
+        
+                    startingPrice = Cells(j, 6).Value
+        
+                End If
+        
+'If the value of the current cell is="ticker" AND the cell after is not = to "ticker" then use the price in the current row, ADJ Close as the ending price
+
+                If Cells(j + 1, 1).Value <> ticker And Cells(j, 1).Value = ticker Then
+        
+                   endingPrice = Cells(j, 6).Value
+        
+                End If
+                                   
+            Next j
+            
+'The following displays the results in worksheet named "All Stocks Analysis b4 Refactor"
+
+            Worksheets("All Stocks Analysis b4 Refactor").Activate
+        
+         
+            Cells(i + 9, 1).Value = ticker
+            Cells(i + 9, 2).Value = totalVolume
+            Cells(i + 9, 3).Value = ((endingPrice / startingPrice) - 1)
+        
+        Next i
+        
+'To conditionally format in green for stocks with positive return and in red stocks with negative return
+'Activate the Worksheet
+
+    Worksheets("All Stocks Analysis b4 Refactor").Activate
+    
+
+    dataRowStart = 9
+    dataRowEnd = 20
+    
+    For k = dataRowStart To dataRowEnd
+
+        If Cells(k, 3) > 0 Then
+
+'Color the cell green
+            Cells(k, 3).Interior.Color = vbGreen
+
+        ElseIf Cells(k, 3) < 0 Then
+
+'Color the cell red
+            Cells(k, 3).Interior.Color = vbRed
+
+        Else
+
+'Clear the cell color
+            Cells(k, 3).Interior.Color = xlNone
+
+        End If
+
+    Next k
+    
+'End timer as all lines of code have processed
+    
+    endTime = Timer
+    
+'Message box to show how long the analysis took
+
+    MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue) & " before refactor"
+    
+    
+End Sub
