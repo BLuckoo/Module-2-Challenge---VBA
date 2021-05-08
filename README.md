@@ -55,9 +55,9 @@
 ####    https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/VBA_Challenge_2017_after_refactor.PNG
 ####    https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/VBA_Challenge_2018_after_refactor.PNG
 ###
-### For the 2017 dataset, the run time in seconds was 1.039063 compared to 1.046875 prior to refactoring.
+### *For the 2017 dataset, the run time in seconds was 1.039063 compared to 1.046875 prior to refactoring.*
 ###
-### For the 2018 dataset, the run time in seconds was 1.054688 compared to 1.0625 prior to refactoring.
+### *For the 2018 dataset, the run time in seconds was 1.054688 compared to 1.0625 prior to refactoring.*
 ###
 ####    The following file contains the code for this analysis: 
 ####    https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/SUB%20AllStocksAnalysisRefactored.txt
@@ -77,7 +77,7 @@
 ####        Time consuming
 ####        
 ###
-### Pros and Cons of Refactoring in the VBA_Challenge project
+### **Pros and Cons of Refactoring in the VBA_Challenge project**
 ###
 ### Pros:
 ####         Use of an indexed array to access elements of the array 
