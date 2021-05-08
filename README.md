@@ -6,16 +6,16 @@
 ####    a) Calculation of the percentage return of a list of stocks using 2017 and 2018 datasets
 ####    b) Demonstrate the use of VBA code to format worksheets, to create Message Boxes, the use of Input Boxes and Display Boxes, use of arrays, loops and ifs statements 
 ####    c) Discuss the pros and cons of refactoring of codes by using snapshots of the results
-##
-## **2. Analysis of Stocks for 2017 and 2018**
-##     
-###     Using VBA code, the 2017 & 2018 stocks datasets were analyzed in the following manner:
-###     a) Use of an Input Message Box to allow the client to select for which year he wants to do the analysis 
-###     b) The VBA code uses the following concepts to collect data, such as ticker symbol, starting price and ending price each stock ticker symbol 
 ###
-###        Arrays - used to collect the data about each stock
-###        Loops - used to iterate through every single row of the dataset 
-###        Ifs statements - to validate and send specific data meeting certain conditions to the array for subsequent reporting
+## **2. Analysis of Stocks for 2017 and 2018**
+###    
+###     Using VBA code, the 2017 & 2018 stocks datasets were analyzed in the following manner:
+####     a) Use of an Input Message Box to allow the client to select the year to run the analysis 
+####     b) The VBA code uses the following concepts to collect data, such as ticker symbol, starting price and ending price each stock ticker symbol 
+####
+####        Arrays - used to collect the data about each stock
+####        Loops - used to iterate through every single row of the dataset 
+####        Ifs statements - to validate and send specific data meeting certain conditions to the array for subsequent reporting
 
 
 ### **The Excel file VBA_Challenge is made up of a number of worksheets:**
