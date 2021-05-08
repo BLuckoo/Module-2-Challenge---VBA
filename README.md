@@ -69,24 +69,25 @@
 ##  **3. The Pros and Cons of Refactoring**
 ### 
 ### Pros in general: 
-###        Making the code more efficient
-###        Helps in finding bugs
-###        Improvement in design of software
-###        Makes it easier to maintain over time
+####        Making the code more efficient - the code will run fasterand will release computer memory resources
+####        Helps in finding bugs
+####        Improvement in design of software
+####        Makes it easier to maintain the code over time
 ###
 ### Cons in general:
-###        Can be costly
-###        Time consuming
+####        Can be costly - require more development time and quality assurance needed
+####        Time consuming
+####        
 ###
 ### Pros and Cons of Refactoring in the VBA_Challenge project
 ###
 ### Pros:
-###         Using of an indexed array to access elements of the array by calling upon the index
-###         Using indexed arrays, frees up memory and the code runs faster
-###         
+####         Use of an indexed array to access elements of the array 
+####         Using indexed arrays, frees up memory and the code runs faster
+####         
 ### Cons: 
-###         In this project the datasets were not too large, so the gain in efficiency of the subroutine is negligible.
-###         We need to consider the cost benefit of the project and decide whether it is worth spending the resources involved in refactoring.
+####         In this project the datasets were not large, so the gain in efficiency of the subroutine is negligible.
+####         We need to consider the cost benefit of the project and decide whether it is worth spending the resources involved in refactoring.
 
 
 
