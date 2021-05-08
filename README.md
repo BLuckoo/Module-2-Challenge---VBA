@@ -32,6 +32,10 @@
 ### The TERP stock was the only non-performing stock with a negative return of 7.2%.
 ###
 ### **The code for this subroutine took 1.046875 seconds to run.** 
+###
+###
+### The following are the results for the 2018 Dataset prior to the refactoring exercise: 
+
 
 
 
