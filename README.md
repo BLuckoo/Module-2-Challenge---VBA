@@ -66,6 +66,7 @@ This subroutine uses arrays to keep the information about the stocks' ticker sym
 ####    https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/SUB%20AllStocksAnalysisRefactored.txt
 ###
 ###
+##
 ##  **3. The Pros and Cons of Refactoring**
 ### 
 ### Pros in general: 
