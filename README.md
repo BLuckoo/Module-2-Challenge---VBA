@@ -78,6 +78,17 @@ This subroutine uses arrays to keep the information about the stocks' ticker sym
 ### Cons in general:
         Can be costly
         Time consuming
+###
+### Pros and Cons of Refactoring in the VBA_Challenge project
+###
+### Pros:
+         Using of an indexed array to access elements of the array by calling upon the index
+         Using indexed arrays, frees up memory and the code runs faster
+         
+### Cons: 
+         In this project the datasets were not too large, so the gain in efficiency of the subroutine is negligible.
+         We need to consider the cost benefit of the project and decide whether it is worth spending the resources involved in refactoring.
+
 
 
 
