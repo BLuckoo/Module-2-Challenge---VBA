@@ -49,6 +49,7 @@
 ###
 ### The results of the subroutine after refactoring are the same for both years, i.e. the returns for both 2017 and 2018, are exactly the same as with the prior subroutine "YearValueAnalysis". 
 ###  The following files show the output for the year 2017 and the 2018 after the refactoring is done:
+###  https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/VBA_Challenge_2017_after_refactor.PNG
 ###  
 
 
