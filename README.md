@@ -6,11 +6,8 @@
 ### a) Using the 2017 and 2018 stock datasets provided to calculate the percentage returns of a list of stocks 
 ### b) Demonstrate the use of VBA code to format worksheets, to create Message Boxes, the use of Input Boxes and Display Boxes, use of arrays, loops and ifs statements in VBA code
 ### c) Discuss the pros and cons of refactoring in coding by using illustrations from this project
-
-
-
-## **2. Analysis of Stocks for 2017 and 2018**
 ##
+## **2. Analysis of Stocks for 2017 and 2018**
 ### Using VBA code, the 2017 & 2018 stocks dataset was analyzed in the following manner:
 ### a) Use of an Input Message Box to allow the client to select for which year he wants to do the analysis 
 ### b) The VBA code uses the following concepts to collect data, such as ticker symbol, starting price and ending price each stock ticker symbol 
@@ -25,7 +22,7 @@
 ####   **YearValueAnalysis** - VBA code prior to refactoring and displaying the results in worksheet *"All Stocks Analysis b4 Refactor"*
 ####   **AllStocksAnalysisRefactored** - VBA code following refactoring using indexed arrays and displaying the results in worksheet *"All Stocks Analysis"*
 
-
+##
 ### **Output of "YearValueAnalysis"**
 ###       This subroutine uses arrays to keep the information about the stocks' ticker symbols and then using "loops" and "ifs" iterates through the data set to accumulate the             volumes traded and identify the starting and ending prices of each ticket symbol. A formula is then used to calculate the percentage return of each ticker symbol.
 
