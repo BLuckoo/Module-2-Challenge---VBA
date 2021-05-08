@@ -24,7 +24,7 @@
 ####   **AllStocksAnalysisRefactored** - VBA code following refactoring using indexed arrays and displaying the results in worksheet *"All Stocks Analysis"*
 
 ##
-### **Output of "YearValueAnalysis"**
+## **Output of "YearValueAnalysis"**
 ###     This subroutine uses arrays to keep the information about the stocks' ticker symbols and then using "loops" and "ifs" iterates through the data set to accumulate the             volumes traded and identify the starting and ending prices of each ticket symbol. A formula is then used to calculate the percentage return of each ticker symbol.
 ###
 ### The following are the results for the 2017 Dataset prior to the refactoring exercise: https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/VBA_Challenge_2017.PNG
