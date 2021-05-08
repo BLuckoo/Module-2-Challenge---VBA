@@ -42,6 +42,7 @@
 ###
 ###
 ###
+##
 ## **Output of "AllStocksAnalysisRefactored"**
 ###       This subroutine uses the same coding concepts that were used in the subroutine "YearValueAnalysis" above except that the concept of indexing of the array is being               introduced to help the code run a little bit faster.
 ###
