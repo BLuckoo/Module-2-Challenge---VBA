@@ -17,11 +17,11 @@
 ####            Ifs statements - to validate and send specific data meeting certain conditions to the array for subsequent reporting
 
 
-### **The Excel file VBA_Challenge is made up of a number of worksheets:**
+## **The Excel file VBA_Challenge is made up of a number of worksheets:**
 ###
-###       Sheets 2017 and 2018 contain the datasets for the years 2017 & 2018 which will be analyzed and reported upon using the VBA codes in subroutines:
-###       **YearValueAnalysis** - VBA code prior to refactoring and displaying the results in worksheet *"All Stocks Analysis b4 Refactor"*
-###       **AllStocksAnalysisRefactored** - VBA code following refactoring using indexed arrays and displaying the results in worksheet *"All Stocks Analysis"*
+###  Sheets 2017 and 2018 contain the datasets for the years 2017 & 2018 which will be analyzed and reported upon using the VBA codes in subroutines:
+#### **YearValueAnalysis** - VBA code prior to refactoring and displaying the results in worksheet *"All Stocks Analysis b4 Refactor"*
+#### **AllStocksAnalysisRefactored** - VBA code following refactoring using indexed arrays and displaying the results in worksheet *"All Stocks Analysis"*
 ##
 ##
 ## **Output of "YearValueAnalysis"**
