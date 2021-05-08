@@ -50,7 +50,7 @@ This subroutine uses arrays to keep the information about the stocks' ticker sym
 ##
 ## **Output of "AllStocksAnalysisRefactored"**
 ##
-    This subroutine uses the same coding concepts that were used in the subroutine "YearValueAnalysis" above except that the concept of indexing of the array is being               introduced to help the code run a little bit faster.
+    This subroutine uses the same coding concepts that were used in the subroutine "YearValueAnalysis" above except that the concept of indexing of the array is being introduced to help the code run a little bit faster.
 ##
 ### The results of the subroutine after refactoring are the same for both years, i.e. the returns for both 2017 and 2018, are exactly the same as with the prior subroutine "YearValueAnalysis". 
 ###  
