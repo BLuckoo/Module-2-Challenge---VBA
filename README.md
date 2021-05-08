@@ -31,6 +31,8 @@
 ### The results show that for the year 2017 most of the stocks had positive returns with the top performing stocks being DQ, SEDG and EWPH. 
 ### The TERP stock was the only non-performing stock with a negative return of 7.2%.
 ###
+###
+###
 ### **The code for this subroutine took 1.046875 seconds to run.** 
 ### 
 ### The following are the results for the 2018 Dataset prior to the refactoring exercise: https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/VBA_Challenge_2018.PNG
@@ -39,8 +41,6 @@
 ### **The code for this subroutine ran in 1.0625 seconds.**
 ###
 ### The following file contains the code for this analysis: https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/SUB%20YearValueAnalysis.txt
-###
-###
 ###
 ##
 ## **Output of "AllStocksAnalysisRefactored"**
@@ -58,6 +58,21 @@
 ###
 ###
 ### The following file contains the code for this analysis: https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/SUB%20AllStocksAnalysisRefactored.txt
+###
+###
+###
+##  **3. The Pros and Cons of Refactoring**
+### 
+### Pros in general: 
+### Making the code more efficient
+### Helps in finding bugs
+### Improvement in design of software
+### Makes it easier to maintain over time
+###
+### Cons in general:
+### Can be costly
+### Time consuming
+
 
 
 
