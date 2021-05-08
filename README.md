@@ -34,20 +34,20 @@
 ###
 ###
 ###
-### **The code for this subroutine took 1.046875 seconds to run.** 
+     **The code for this subroutine took 1.046875 seconds to run.** 
 ### 
-### The following are the results for the 2018 Dataset prior to the refactoring exercise: https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/VBA_Challenge_2018.PNG
-### Unlike 2017, in 2018 most of the stocks had negative returns. Only ENPH and RUN had positive returns of 81.9% and 84% respectively.
+      The following are the results for the 2018 Dataset prior to the refactoring exercise: https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/VBA_Challenge_2018.PNG
+      Unlike 2017, in 2018 most of the stocks had negative returns. Only ENPH and RUN had positive returns of 81.9% and 84% respectively.
 ###
-### **The code for this subroutine ran in 1.0625 seconds.**
+      **The code for this subroutine ran in 1.0625 seconds.**
 ###
-### The following file contains the code for this analysis: https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/SUB%20YearValueAnalysis.txt
+        The following file contains the code for this analysis: https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/SUB%20YearValueAnalysis.txt
 ###
 ##
 ## **Output of "AllStocksAnalysisRefactored"**
 ##
-###       This subroutine uses the same coding concepts that were used in the subroutine "YearValueAnalysis" above except that the concept of indexing of the array is being               introduced to help the code run a little bit faster.
-###
+      This subroutine uses the same coding concepts that were used in the subroutine "YearValueAnalysis" above except that the concept of indexing of the array is being               introduced to help the code run a little bit faster.
+##
 ### The results of the subroutine after refactoring are the same for both years, i.e. the returns for both 2017 and 2018, are exactly the same as with the prior subroutine "YearValueAnalysis". 
 ###  The following files show the output for the year 2017 and the 2018 after the refactoring is done:
 ###  https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/VBA_Challenge_2017_after_refactor.PNG
