@@ -12,7 +12,6 @@
 ###     Using VBA code, the 2017 & 2018 stocks datasets were analyzed in the following manner:
 ####     a) Use of an Input Message Box to allow the client to select the year to run the analysis 
 ####     b) The VBA code uses the following concepts to collect data, such as ticker symbol, starting price and ending price each stock ticker symbol 
-            Arrays
 ####            Arrays - used to collect the data about each stock
 ####            Loops - used to iterate through every single row of the dataset 
 ####            Ifs statements - to validate and send specific data meeting certain conditions to the array for subsequent reporting
