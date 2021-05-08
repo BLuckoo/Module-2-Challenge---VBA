@@ -50,7 +50,7 @@
 ##
 ## **Output of "AllStocksAnalysisRefactored"**
 ##
-      This subroutine uses the same coding concepts that were used in the subroutine "YearValueAnalysis" above except that the concept of indexing of the array is being               introduced to help the code run a little bit faster.
+    This subroutine uses the same coding concepts that were used in the subroutine "YearValueAnalysis" above except that the concept of indexing of the array is being               introduced to help the code run a little bit faster.
 ##
 ### The results of the subroutine after refactoring are the same for both years, i.e. the returns for both 2017 and 2018, are exactly the same as with the prior subroutine "YearValueAnalysis". 
 ###  
@@ -58,7 +58,7 @@
 ####    https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/VBA_Challenge_2017_after_refactor.PNG
 ####    https://github.com/BLuckoo/Module-2-Challenge---VBA/blob/main/VBA_Challenge_2018_after_refactor.PNG
 ###
-        For the 2017 dataset, the run time in seconds was 1.039063 compared to 1.046875 prior to refactoring.
+### For the 2017 dataset, the run time in seconds was 1.039063 compared to 1.046875 prior to refactoring.
 ###
 ### For the 2018 dataset, the run time in seconds was 1.054688 compared to 1.0625 prior to refactoring.
 ###
